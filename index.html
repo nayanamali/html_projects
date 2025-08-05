@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanderlust Travel</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+       * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.n1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d47a1;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.n2 {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.a1 {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.a1:hover {
+  color: #ffd54f;
+}
+
+.h1{
+  background: url('images/pixel.jpg');
+  background-repeat: no-repeat; 
+  background-size:cover;
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.p1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.p2 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #ffd54f;
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffb300;
+}
+
+.destinations {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: white;
+}
+
+.g1{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.c1 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.c2 {
+  background-color: #e3f2fd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.i1{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.v1 {
+  padding: 1rem;
+}
+
+.c2.hover{
+  transform: translateY(-5px);
+}
+
+footer {
+  text-align: center;
+  background-color: #0d47a1;
+  color: white;
+  padding: 1rem;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="n1">
+      <div class="logo">Wanderlust</div>
+      <ul class="n2">
+        <li><a href="index.html" class="a1">Home</a></li>
+        <li><a href="About.html" class="a1">About</a></li>
+        <li><a href="Services.html" class="a1">Services</a></li>
+        <li><a href="Contact.html" class="a1">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="h1">
+      <h1 class="p1">Explore the World with Us</h1>
+      <p class="p2">Your adventure begins here</p>
+      <a href="#" class="btn">Discover More</a>
+    </div>
+  </header>
+
+  <section class="destinations">
+    <h2 class="g1">Featured Destinations</h2>
+    <div class="c1">
+      <div class="c2">
+        <img src="images/paris.jpg" alt="Paris" class="i1" />
+        <h3 class="v1">Paris, France</h3>
+      </div>
+      <div class="c2">
+        <img src="images/bali.jpg" alt="Bali" class="i1" />
+        <h3 class="v1">Bali, Indonesia</h3>
+      </div>
+      <div class="c2">
+        <img src="images/new_york.jpg" alt="New York"  class="i1"/>
+        <h3 class="v1">New York, USA</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Wanderlust Travel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
